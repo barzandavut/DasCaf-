@@ -1,8 +1,8 @@
 ☕ Das Café Shop Project
 
-Bu proje, kahve ürünlerini listeleyebileceğiniz, sepetinize ekleyebileceğiniz ve toplam tutarı görebileceğiniz bir web uygulamasıdır.
-
 ![Logo](img/logo.png)
+
+Bu proje, kahve ürünlerini listeleyebileceğiniz, sepetinize ekleyebileceğiniz ve toplam tutarı görebileceğiniz bir web uygulamasıdır.
 
 🎯 Özellikler
 
