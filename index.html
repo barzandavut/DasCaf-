@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Das Café</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand">
+      <div class="container px-5">
+        <div class="container-logo">
+          <a class="navbar-brand fw-bold" href="index.html">
+            <span class="text-petroleum lead mg-lg-2" aria-current="page" href="index.html">Das Café</span>
+            <img class="img-fluid" style="width: 4rem" src="img/logo.png" alt=""/>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto my-auto my-3 me-4 mb-lg-0">
+            <li class="nav-item m-2">
+              <a class="nav-link text-petroleum mg-lg-2" aria-current="page" href="index.html">Anasayfa</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link text-petroleum mg-lg-2" aria-current="page" href="about.html">Hakkımızda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="main bg-light text-light py-3">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-8">
+            <div class="row" id="menuList">
+              <!-- Kahve Çeşitleri -->
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="container" id="">
+              <h5>Sipariş Bilgisi</h5>
+              <table class="table" id="cartTable">
+                <thead>
+                  <tr>
+                    <th scope="col">Ürün Adı</th>
+                    <th scope="col">Fiyatı</th>
+                  </tr>
+                </thead>
+                <tbody id="cartBody"></tbody>
+                <tfoot>
+                  <tr>
+                    <th scope="row">Toplam</th>
+                    <td id="cartTotal">0 ₺</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="pt-5 bg-dark opacity-50">
+      <div class="container mx-auto footer-container justify-content-center align-items-center">
+        <div class="row d-flex ">
+          <div class="col-4 col-lg-4 d-flex flex-column justify-content-center align-items-center text-center mb-4">
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-light text-decoration-none" href="#">Yardım &amp; Destek</a>
+              </li>
+              <li>
+                <a class="text-light text-decoration-none" href="sss.html">SSS</a>
+              </li>
+              <li>
+                <a class="text-light text-decoration-none" href="#">Gizlilik</a>
+              </li>
+              <li>
+                <a class="text-light text-decoration-none" href="#">Hakkımızda</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 col-lg-4 d-flex flex-column justify-content-center align-items-center text-center mb-4">
+            <div class="container">
+              <h3 class="text-light">İletişim</h3>
+              <p class="text-light">
+                Kahve Mahallesi, <br/>
+                Espresso Caddesi, <br/>
+                No: 1 Şemdinli/Hakkari
+              </p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-4 link-icon d-flex flex-column justify-content-center align-items-center text-center mb-4">
+            <div class="container">
+              <h3 class="text-light">Bizi Takip Et</h3>
+              <div class="d-flex justify-content-center gap-4 links">
+                <a href="#"><i class="fa-brands fa-youtube text-light"></i></a>
+                <a href="#"><i class="fa-brands fa-x text-light"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook text-light"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram text-light"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container px-5">
+        <div class="small">
+          <div class="text-light text-center mb-2">
+            Copyright © Coffee 2025. All Rights Reserved.
+          </div>
+          <div class="text-center pb-5">
+            <a class="text-light text-decoration-none opacity-50" href="#">Privacy</a >
+              <span class="mx-1">.</span>
+              <a class="text-light text-decoration-none opacity-50" href="#">Terms</a>
+              <span class="mx-1">.</span>
+              <a class="text-light text-decoration-none opacity-50" href="#">FAQ</a>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="script.js"></script>
+    <!-- Bootstrap-script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

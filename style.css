@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #e4e3e1;
+}
+
+body {
+    overflow-x: hidden; 
+    margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Mobilde görsel oranı düzgün kalsın */
+}
