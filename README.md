@@ -2,6 +2,8 @@
 
 Bu proje, kahve ürünlerini listeleyebileceğiniz, sepetinize ekleyebileceğiniz ve toplam tutarı görebileceğiniz bir web uygulamasıdır.
 
+![Logo](img/logo.png)
+
 🎯 Özellikler
 
 📱 Responsive Tasarım: Tüm cihazlarda uyumlu (mobil, tablet, desktop).
@@ -12,11 +14,6 @@ Bu proje, kahve ürünlerini listeleyebileceğiniz, sepetinize ekleyebileceğini
 
 🎨 Modern Arayüz: Bootstrap 5 ile tasarlanmış şık kullanıcı deneyimi.
 
-🖼️ Ekran Görüntüsü
-
-(Buraya proje ekran görüntüsü ekleyebilirsin)
-
-![Coffee Project Screenshot]()
 
 🚀 Kullanılan Teknolojiler
 
