@@ -26,19 +26,19 @@ CSS3 & Bootstrap 5 – Responsive tasarım
 
 JavaScript (DOM) – Sepet işlemleri ve toplam tutar hesaplama
 
-📂 Kurulum
+## 📁 Kurulum
 
-Bu projeyi bilgisayarına klonla:
+Projeyi kendi bilgisayarında çalıştırmak için:
 
-git clone https://github.com/kullanici-adi/coffee-shop.git
+1. Bu repoyu klonlayın:
+   ```bash
+   [git clone [https://github.com/barzandavut/DasCaf-]
+   ```
 
-
-Proje klasörünü aç:
-
-cd coffee-shop
-
-
-index.html dosyasını bir tarayıcıda açarak çalıştırabilirsin.
+2. Tarayıcıda açmak için:
+   ```bash
+   index.html dosyasını çift tıklayın veya bir canlı sunucuda çalıştırın.
+   ```.
 
 🛠️ Gelecek Geliştirmeler
 
@@ -48,9 +48,7 @@ index.html dosyasını bir tarayıcıda açarak çalıştırabilirsin.
 
 💳 Online ödeme entegrasyonu
 
-👤 Yazar
+👤  Geliştirici
 
-Davut Çiftçi
-
-LinkedIn
- | GitHub
+**Davut Çiftçi**    
+- [LinkedIn](https://www.linkedin.com/in/barzandavutciftci/) • [GitHub](https://github.com/barzandavut)
