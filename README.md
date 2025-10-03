@@ -48,4 +48,4 @@ Projeyi kendi bilgisayarında çalıştırmak için:
 👤  Geliştirici
 
 **Davut Çiftçi**    
-- [LinkedIn](https://www.linkedin.com/in/barzandavutciftci/) • [GitHub](https://github.com/barzandavut)
+- [LinkedIn](https://www.linkedin.com/in/davutciftci/) • [GitHub](https://github.com/barzandavut)
